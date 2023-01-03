@@ -1,0 +1,35 @@
+
+#tri{
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    border: 150px solid rgb(228, 121, 21);
+    border-top:  30px solid rgb(232, 96, 23);
+    border-right: 30px solid rgb(155, 155, 146) ;
+    border-left: 30px solid rgb(133, 237, 133);
+    border-bottom: 30px solid rgb(1, 29, 188);
+    border-radius: 10px;
+    transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+    background-color: rgb(215, 255, 192);
+    
+    position: absolute;
+    top: 30%;
+    left: 40%; 
+}
+#text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: rotate(-45deg);
+    font-size: 27px;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#new{
+    background-color: rgb(45, 41, 41);
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 10%;
+    left: 34%; 
+}
